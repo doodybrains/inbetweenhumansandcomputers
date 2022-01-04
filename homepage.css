@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Apoc-Revelations';
+  src: url('Apoc-Revelations.woff2') format('woff2'),
+      url('Apoc-Revelations.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Apoc-Revelations-Italic';
+  src: url('Apoc-RevelationsItalic.woff2') format('woff2'),
+      url('Apoc-RevelationsItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ancient';
+  src: url('ancientstory-webfont.woff2') format('woff2'),
+      url('ancientstory-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Apoc-Revelations';
+  margin: 0;
+  padding: 10px;
+  font-size: 16px;
+  overflow-x: hidden;
+  background: white;
+  color: black;
+    padding-bottom: 180px;
+}
+h1, h2, h3, h4, p, ul, li {margin: 0; padding: 0; font-weight: normal;}
+
+ul {list-style: none;}
+h1 {
+  font-family: 'ancient';
+  font-size: 2em;
+  margin-bottom: 22px;
+}
+
+ul li {
+  font-size: 1em;
+  margin-bottom: 12px;
+}
+a {
+  color: black;
+  background: yellow;
+  text-decoration: none;
+}
+a:hover {
+  background: black;
+  color: yellow;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.5em;
+  }
+  ul li {
+    font-size: 1.25em;
+    margin-bottom: 12px;
+  }
+}
