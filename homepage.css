@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  font-family: 'Apoc-Revelations';
+  font-family: 'ancient';
   margin: 0;
   padding: 10px;
   font-size: 16px;
@@ -64,7 +64,8 @@ a:hover {
     font-size: 3.5em;
   }
   ul li {
-    font-size: 1.25em;
+    font-size: 2.25em;
+    letter-spacing: .03em;
     margin-bottom: 12px;
   }
 }
