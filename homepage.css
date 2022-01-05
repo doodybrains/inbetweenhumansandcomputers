@@ -34,7 +34,7 @@ body {
   padding: 10px;
   font-size: 16px;
   overflow-x: hidden;
-  background: #D5FFB1;
+  background: #9EFD40;
   color: black;
     padding-bottom: 180px;
 }
@@ -53,12 +53,11 @@ ul li {
 }
 a {
   color: black;
-  background: yellow;
   text-decoration: none;
 }
 a:hover {
-  background: black;
-  color: yellow;
+  background: white;
+  color: black;
 }
 @media screen and (min-width: 768px) {
   h1 {
